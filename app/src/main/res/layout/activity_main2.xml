@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Main2Activity"
+    tools:showIn="@layout/activity_main2">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="nev"
+            android:id="@+id/tv2"
+            android:textSize="30dp"
+            android:layout_centerHorizontal="true"
+            />
+
+        <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/LinearLayout"
+        android:orientation="vertical"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+            >
+
+            <Button
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/b1"
+                android:text="Következő Activity-re"
+                android:textSize="20dp"
+                />
+
+            <Button
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/b2"
+                android:layout_below="@+id/ed1"
+                android:text="Névváltoztatás"
+                android:textSize="20dp"
+                />
+
+            <Button
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/b3"
+                android:layout_below="@+id/ed1"
+                android:text="Információ"
+                android:textSize="20dp"
+                />
+
+            <Button
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/b4"
+                android:layout_below="@+id/ed1"
+                android:text="Kilépés"
+                android:textSize="20dp"
+                />
+
+        </LinearLayout>
+
+</RelativeLayout>
